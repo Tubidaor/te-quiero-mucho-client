@@ -1,0 +1,259 @@
+.relMenuCon {
+  top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0 , 0, 0, .75);
+  padding: 5px;
+  color: rgba(210, 217, 220, 1);
+  font-family: "Nothing You Could Do", cursive;
+  height: 30px;
+}
+.relMenuItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.relMenuItem span {
+  margin-right: 2px;
+}
+.relMenuItem:hover {
+  cursor: pointer;
+}
+.relMenuItem:active {
+  color: rgba(0 , 0, 0, .75)
+}
+.alertsLi { 
+  list-style: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 500px;
+  padding: 4px 8px;
+  color: rgba(210, 217, 220, 1);
+  background-color: rgba(0 , 0, 0, .75);
+}
+.alertsH4 {
+  font-family: "Buda", cursive;
+  font-size: 1em;
+  color: rgba(255, 255, 0, .75);
+  font-weight: bold;
+  width: 250px;
+  background-color: rgba(0 , 0, 0, .75);
+  border-radius: 10px;
+  text-align: center;
+  padding: 4px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alertsSpan {
+  font-family: "Buda", cursive;
+  font-size: 1em;
+  color: rgba(210, 217, 220, 1);
+}
+.alertsUL {
+  padding: 0px;
+}
+.alertsStatusCon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.status {
+  margin-left: -60px;
+}
+.analyticCon {
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.analyticCon h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.analyticCon select {
+  background-color: rgba(0 , 0, 0, .75);
+  color: rgba(210, 217, 220, 1);
+  border: none;
+  border-radius: 5px;
+  font-family: "Buda", cursive;
+  padding: 2px 0px 2px 2px;
+  font-weight: bold;
+  font-size: .6em;
+  max-width: 90%;
+}
+.qOptions {
+  font-weight: bold;
+  font-family: "Buda", cursive;
+  font-size: .6em;
+  color: rgba(210, 217, 220, 1);
+}
+.anlCon, .alertsCon {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  width: 100vw;
+}
+.anlBtnCon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.anlYouBtn {
+  background-color: rgba(0 , 0, 0, .75);
+  width: 100px;
+  color: #ffff00;
+  font-weight: bold;
+  font-family: "Nothing You Could Do", cursive;
+  padding: 2px;
+  border: none;
+  border-radius: 5px;
+}
+.anlRelBtn {
+  background-color: rgba(0 , 0, 0, .75);
+  width: 100px;
+  color: #ff0000;
+  font-weight: bold;
+  font-family: "Nothing You Could Do", cursive;
+  padding: 2px;
+  border: none;
+  border-radius: 5px;
+}
+.anlYouBtn:active, .anlRelBtn:active {
+  color: rgba(0 , 0, 0, .75);
+}
+.anlYouBtn:hover, .anlRelBtn:hover {
+  cursor: pointer;
+}
+.anlH2 {
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(0 , 0, 0, .75);
+  color: rgba(210, 217, 220, 1);
+  width: 200px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Buda", cursive;
+}
+.addIssueCon {
+  margin-top: 20px;
+}
+.issueInputCon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.issueBtn {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.issueLegend {
+  margin-right: auto;
+  margin-left: auto;
+  color: rgba(210, 217, 220, 1);
+  font-family: "Buda", cursive;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.highAlert {
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.midAlert {
+  background-color: orange;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.lowAlert {
+  background-color: yellow;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.alertsLegend {
+  background-color: rgba(0 , 0, 0, .75);
+  width: 250px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+}
+.alertsH2 {
+  text-align: center;
+  font-family: "Buda", cursive;
+  color: rgba(210, 217, 220, 1);
+}
+.statusLegCon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.statusCon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.statusCon span {
+  margin-left: 4px;
+  font-family: "Buda", cursive;
+  color: rgba(210, 217, 220, 1);
+}
+.issueFS {
+  border: none;
+}
+.issueForm {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0 , 0, 0, .75);
+  border-radius: 10px;
+  width: 300px;
+}
+.issueInputCon label {
+  font-family: "Buda", cursive;
+  color: rgba(210, 217, 220, 1);
+  font-weight: bold;
+}
+.issueBtn {
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(210, 217, 220, 1);
+  font-family: 'Nothing You Could Do', cursive;
+  color: #40616e;
+  font-size: 1em;
+  padding-bottom: -6px;
+  position: relative;
+  right: 2px;
+  top: -6px;
+}
+.issueBtn:active {
+  background-color: #758f9a;
+  color: rgba(210, 217, 220, 1);
+}
+.issueBtn:hover {
+  cursor: pointer;
+}
+.issueForm select, .issueForm option {
+  font-family: "Buda", cursive;
+  font-weight: bold;
+  font-size: .9em;
+}

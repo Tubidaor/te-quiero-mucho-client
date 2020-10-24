@@ -1,0 +1,83 @@
+.introPageContainer {
+  background-image: url("http://localhost:8000/api/uploads/static/starrySky.jpg");
+  background-position: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: auto;
+}
+.introH1 {
+  text-align: center;
+  font-family: 'Cinzel Decorative';
+  color: rgba(210, 217, 220, 1);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.introImg {
+  height: 120px;
+  width: 160px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+  color: rgba(210, 217, 220, 1);
+}
+
+
+.introP {
+  padding: 20px;
+  color: rgba(210, 217, 220, 1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  /* font-family: 'Tangerine', cursive; */
+  font-family: 'Cinzel Decorative';
+  /* font-family: 'Buda', cursive;
+  font-family: 'Delius Swash Caps';
+  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Oleo Script';
+  font-family: 'Pacifico', cursive; */
+  font-size: .83em;
+}
+
+.introButtonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 200px;
+}
+.introButtonContainer button {
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(210, 217, 220, 1);
+  font-family: 'Nothing You Could Do', cursive;
+  color: #40616e;
+  font-size: 1em;
+  /* position: relative;
+  margin-left: auto;
+  margin-right: auto; */
+  /* display: block; */
+  width: 75px;
+}
+.introButtonContainer button:active {
+  /* background-color: #5250B1; */
+  background-color: #758f9a;
+  color: rgba(210, 217, 220, 1);
+}
+.introButtonContainer button:hover {
+  cursor: pointer;
+  
+}
+.introPageTop {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
