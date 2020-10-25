@@ -102,7 +102,7 @@
 .menuListCon {
   display: none;
   background-image: url(
-    "http://localhost:8000/api/uploads/static/streetSnow.jpg"
+    "../../images/streetSnow.jpg"
   );
   background-size: 150% 400%;
   background-position: center;

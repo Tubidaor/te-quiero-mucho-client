@@ -4,7 +4,7 @@
   background: rgba( 0, 0, 0, 1);
 }
 .expandFooter {
-  background-image: url('http://localhost:8000/api/uploads/static/brightStars.jpg');
+  background-image: url('../../images/brightStars.jpg');
   background-size: 100% 140%;
   background-position-y: 237%;
 }

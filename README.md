@@ -1,68 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello,
 
-## Available Scripts
+This project is intended to be a journal, a mood tracker, and a relationship tracker.
 
-In the project directory, you can run:
+Upon initial login, you will be prompted with a series of questions regarding your current state of mind. These questions will always be asked upon login are are meant to be static so as to be able to set a standard upon which to track your mood throughout time. The data from these questions will then be used to populate graphs in order for you to visually track your mood.
 
-### `npm start`
+In the journaling functionality you have the ability to submit text, audio, video, and image entries. These additional features are meant to further supply you with methods in which you can keep track of your state of mind. Along with the data points, you will be able to dive deeper into how you are feeling, or things that have made you happy or sad, provided you are consistent with journaling. Ideally you will journal and everytime you use the app in order for the data points from the questions to match your journal entries. The point being is to have emperical evidence of your mood, along with reasons as to why you may feel a certain way.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In the relationship section, you will have the ability to link to your partner, and you will both be provided with the same series of questions. You will receive notices if you fall below a certain threshold, or if you deviate greately from your partners answers. The point is to capture any disatisfaction that may arise out of difference in perspectives, or discontentment from any particular issues that may arise from being in a relationship. This is meant as a tool for you to keep the relationship in a good state, and not letting issues fester or keep going without discussing. You also have graphical representation of the data points and topics so that you can track how the relationship is doing.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+My hope is that this will help.

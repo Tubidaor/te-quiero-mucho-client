@@ -7,7 +7,7 @@
   margin-right: auto;
   position: fixed;
   top: 0px;
-  background-image: url("http://localhost:8000/api/uploads/static/nightStars.jpg");
+  background-image: url("../../images/nightStars.jpg");
   background-position-y: 48%;
   background-size: 200% 425%;
   background-repeat: no-repeat;

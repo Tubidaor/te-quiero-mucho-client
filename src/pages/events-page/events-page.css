@@ -1,6 +1,6 @@
 .eFeedSec {
   margin-top: 80px;
-  background-image: url("http://localhost:8000/api/uploads/static/journey.jpg");
+  background-image: url("../../images/journey.jpg");
   background-position: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
