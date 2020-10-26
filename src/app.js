@@ -13,9 +13,9 @@ import Boundary from './components/error-boundary/error-boundary'
 
 function App() {
   return (
-    <div className="App">
-      <Switch>
-        <Boundary>
+    <Boundary>
+      <div className="App">
+        <Switch>
           <Route
             exact
             path={"/"}
@@ -40,9 +40,9 @@ function App() {
           <Route
             component={NotFoundPage}
           />
-        </Boundary>
-      </Switch>
-    </div>
+        </Switch>
+      </div>
+    </Boundary>
   )
 }
 

@@ -3,15 +3,12 @@
   margin-right: auto;
   width: 260px;
 }
-
 .labelCon, .addReqAnnCon {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
-
 .addReqBtn {
-
   margin-top: 10px;
 }
 .addReqSection {

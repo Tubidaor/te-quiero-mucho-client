@@ -63,7 +63,7 @@ export default class AddReqForm extends Component {
       </option>
     )
       return (
-        <div className='addReqCon'>
+        <div className="addReqCon">
           <form
             onSubmit={this.props.handleSubmit}
             id="addReqForm"
@@ -71,13 +71,20 @@ export default class AddReqForm extends Component {
           >
             <legend className="addReqLeg">Add Request</legend>
             <div className="labelCon">
-              <label className="addReqLabel">Email</label>
-              <input name="email" id="addReqInput"></input>
+              <label htmlFor="addReqInput" className="addReqLabel">Email</label>
+              <input
+                name="email"
+                id="addReqInput"
+                type="text"
+                aria-label="Email for Registration"
+                aria-required="true"
+                aria-describedby="errorMessage"
+              ></input>
             </div>
             <div className="addReqAnnCon">
               <label
                 className="addReqLabel"
-                htmlFor="birthday"
+                htmlFor="monthSelect"
                 aria-label="month"
               >
                 Anniversary

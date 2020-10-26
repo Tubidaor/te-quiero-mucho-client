@@ -21,7 +21,6 @@ import { faHandPaper } from '@fortawesome/free-regular-svg-icons'
 import AudioPlayer from 'react-h5-audio-player'
 import TeQuieroContext from '../../context'
 
-
 registerPlugin(
   FilePondPluginFileEncode,
   FilePondPluginFileValidateSize,
@@ -110,6 +109,9 @@ static contextType = TeQuieroContext
             name='files'
             multiple
             max="10"
+            aria-label="Select files for upload"
+            aria-required="true"
+            aria-describedby="errorMessage"
           />
         </form>   
       </section>

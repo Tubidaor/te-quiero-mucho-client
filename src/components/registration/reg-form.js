@@ -162,23 +162,63 @@ export default class RegForm extends Component {
           {this.context.error && <Error/> }
           <div className="firstNameCon">
             <label htmlFor="firstName">First name</label>
-            <input name="firstName" id="firstName"></input>
+            <input
+              name="firstName"
+              id="firstName"
+              type="text"
+              aria-label="Enter first name for registration"
+              aria-required="true"
+              aria-describedby="errorMessage"
+            >
+            </input>
           </div>
           <div className="lastNameCon">
             <label htmlFor="lastName">Last name</label>
-            <input name="lastName" id="lastName"></input>
+            <input
+              name="lastName"
+              id="lastName"
+              type="text"
+              aria-label="Enter last name for registration"
+              aria-required="true"
+              aria-describedby="errorMessage"
+            >
+            </input>
           </div>
           <div className="emailCon">
             <label htmlFor="email">Email</label>
-            <input name="email" id="email"></input>
+            <input
+              name="email"
+              id="email"
+              type="text"
+              aria-label="Enter email for registration"
+              aria-required="true"
+              aria-describedby="errorMessage"
+            >
+            </input>
           </div>
           <div className="pwCon">
             <label htmlFor="pw">Password</label>
-            <input name="pw" id="pw"></input>
+            <input
+              name="pw"
+              id="pw"
+              type="text"
+              aria-label="Enter password for registration"
+              aria-required="true"
+              aria-describedby="errorMessage"
+            >
+            </input>
           </div>
           <div className="pwCCon">
             <label htmlFor="pwConfirm">Confirm</label>
-            <input name="pwConfirm" id="pwConfirm"></input>
+            <input
+              name="pwConfirm"
+              id="pwConfirm"
+              type="text"
+              aria-label="Confirm password for registration"
+              aria-required="true"
+              aria-describedby="errorMessage"
+            >
+            </input>
           </div>
           <div className="bdCon">
             <label htmlFor="birthday" aria-label="month">Birthday</label>

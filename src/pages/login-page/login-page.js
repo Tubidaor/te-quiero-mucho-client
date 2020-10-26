@@ -3,8 +3,6 @@ import Login from '../../components/login/login'
 import TeQuieroContext from '../../context'
 import './login-page.css'
 
-
-
 export default class LoginPage extends Component {
 
   static defaultProps = {

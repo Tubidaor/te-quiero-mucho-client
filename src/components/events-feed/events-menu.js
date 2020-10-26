@@ -8,9 +8,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import './events-menu.css'
 
-
-
-
 export default function EventsMenu(props) {
 
   return (

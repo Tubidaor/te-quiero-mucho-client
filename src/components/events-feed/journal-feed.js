@@ -30,7 +30,6 @@ export default class JournalFeed extends Component {
       color: 'rgba(210, 217, 220, 1)'
     }
 
-
     const displayJournalFeed = journals.map(journal =>
       <li key={journals.indexOf(journal)} className="jFeedLi">
         <div>

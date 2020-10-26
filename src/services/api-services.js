@@ -1,7 +1,6 @@
 import config from '../config'
 import TokenServices from './token-services'
 
-
 export const QServices = {
 
   getGenQuestions(token) {

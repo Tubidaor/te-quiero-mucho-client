@@ -3,7 +3,6 @@ import VictoryZoom from './line-zoom'
 import Spiderweb from './spider-web'
 import './graphs.css'
 
-
 export default class Graphs extends Component {
   
   render() {

@@ -7,7 +7,6 @@ import {
   faChartPie
 } from '@fortawesome/free-solid-svg-icons'
 
-
 export default function RelMenu(props) {
 
   return(

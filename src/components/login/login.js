@@ -63,11 +63,27 @@ static contextType = TeQuieroContext
               <label className="loginLabel" htmlFor="loginForm_email">
                 Email
               </label>
-              <input name="email" id="loginForm_email"></input>
+              <input
+                name="email"
+                id="loginForm_email"
+                type="text"
+                aria-label="Enter email to login"
+                aria-required="true"
+                aria-describedby="errorMessage"
+              >
+              </input>
             </div>
             <div className="password">
               <label  className="loginLabel" htmlFor="password">Password</label>
-              <input name="password" id="password"></input>
+              <input
+                name="password"
+                id="password"
+                type="text"
+                aria-label="Enter password to login"
+                aria-required="true"
+                aria-describedby="errorMessage"
+              >
+              </input>
             </div>
           </div>
           <button className="loginButton" type="submit">Submit</button>

@@ -9,7 +9,6 @@ import {
   VictoryLegend
 } from 'victory'
 
-
 export default class Spiderweb extends Component {
 
   constructor(props) {

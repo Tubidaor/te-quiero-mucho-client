@@ -150,7 +150,6 @@
   top: 2px;
   left: -29px;
 }
-
 .disgustFaceEyesCon li {
   list-style: none;
   height: 6px;
@@ -217,7 +216,6 @@
   top: -4px;
   left: -4px;
   transform: rotate(40deg);
-
 }
 .disgustFaceRightEye::before {
   content: "";
@@ -566,7 +564,6 @@
 .distressedFaceP {
   margin-top: 10px;
   margin-left: -14px;
-
 }
 .sadFaceP {
   margin-top: 5px;
@@ -580,7 +577,6 @@
   margin-top: 10px;
   margin-left: -4px;
 }
-
 .faceInput {
   width: 12px;
   margin-left: auto;

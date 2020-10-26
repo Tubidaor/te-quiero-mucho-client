@@ -408,7 +408,7 @@ export class AddIssue extends Component {
           <fieldset className="issueFS">
             <legend className="issueLegend">Add an issue</legend>
             <div className="issueInputCon">
-              <label>Section</label>
+              <label htmlFor="section">Section</label>
               <select
                 name="section"
                 id="section"
@@ -419,14 +419,14 @@ export class AddIssue extends Component {
               </select>
             </div>
             <div className="issueInputCon">
-              <label>Category</label>
-              <select name="category">
+              <label htmlFor="category">Category</label>
+              <select name="category" id="category">
                 {this.state.section === "Relationship"? relOptions: youOptions}
               </select>
             </div>
             <div className="issueInputCon">
-              <label>Issue</label>
-              <input name="question" type="text"></input>
+              <label htmlFor="question">Issue</label>
+              <input name="question" id="question" type="text"></input>
             </div>
           </fieldset>
           <button className="issueBtn" type="submit">Submit</button>

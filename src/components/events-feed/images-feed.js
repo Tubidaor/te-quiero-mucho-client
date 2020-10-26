@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import config from '../../config'
 import './events-menu.css'
 
-
-
 export default class ImagesFeed extends Component {
 
   render() {

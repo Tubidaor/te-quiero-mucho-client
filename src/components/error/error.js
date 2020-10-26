@@ -9,7 +9,7 @@ export default class Error extends Component {
   render() {
     const { error } = this.context
     return (
-      <div className="errorCon">
+      <div className="errorCon" id="errorMessage">
           <p className="errorMessage">{error}</p>
       </div>
     )

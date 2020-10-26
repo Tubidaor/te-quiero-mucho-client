@@ -36,7 +36,6 @@ export default class QuestionFaces extends Component {
       currentQ: 0
     }
   }
-
   
   updateState = (state) => {
     let noJoySum = state.disgust.value + state.sadness.value + state.anger.value
