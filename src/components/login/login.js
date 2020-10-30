@@ -57,7 +57,9 @@ static contextType = TeQuieroContext
     return (
         <form className="loginForm" onSubmit={this.handleLoginJwtAuth}>
           <div className="loginForm233">
-            <h2 className="loginH2">Login</h2>
+            <header>
+              <h1 className="loginH1">Login</h1>
+            </header>
             {this.context.error && <Error/>}
             <div className="email">
               <label className="loginLabel" htmlFor="loginForm_email">

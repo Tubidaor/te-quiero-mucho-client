@@ -20,10 +20,11 @@
   border-radius: 10px;
   padding: 14px;
 }
-.addAppCon h4 {
+.addAppCon h1 {
   font-family: "Buda", cursive;
   text-align: center;
   color: rgba(210, 217, 220, 1);
+  font-size: 1rem
 }
 .addReqLeg {
   font-family: "Buda", cursive;

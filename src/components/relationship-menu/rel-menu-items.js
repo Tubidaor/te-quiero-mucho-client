@@ -165,11 +165,11 @@ export class Analytics extends Component {
     const displayYouSec = () => {
       return (
         <div className="analyticCon">
-          <h2>
+          <p>
             <select id='option' onChange={this.handleQChange}>
               ${questionOptions}
             </select>
-          </h2>
+          </p>
           <Graphs
             zoomDomain={zoomDomain}
             lineZoomData={userQuestionData[this.state.qIndex]}
@@ -184,11 +184,11 @@ export class Analytics extends Component {
     const displayYourRelSec = () => {
       return (
         <div className="analyticCon">
-          <h2>
+          <p>
             <select id='option' onChange={this.handleQChange}>
               ${questionOptions}
             </select>
-          </h2>
+          </p>
           <Graphs
             zoomDomain={zoomDomain}
             lineZoomData={userQuestionData[this.state.qIndex]}
@@ -204,6 +204,11 @@ export class Analytics extends Component {
 
     return (
       <div className="anlCon">
+        <header>
+          <h1 className="anlH1">
+            {page === 'you'? 'User Data': 'Relationship Data'}
+          </h1>
+        </header>
         <div className="anlBtnCon">
           <button className="anlYouBtn" onClick={e => this.handleClickYou(e)}>
             You
@@ -212,9 +217,6 @@ export class Analytics extends Component {
             Relationship
           </button>
         </div>
-        <h2 className="anlH2">
-          {page === 'you'? 'User Data': 'Relationship Data'}
-        </h2>
         { page === 'you'? displayYouSec(): displayYourRelSec()}
       </div>
     )
@@ -315,7 +317,9 @@ export class Alerts extends Component {
     return (
       <section className="alertsCon">
         <div className="alertsLegend">
-          <h2 className="alertsH2">Issues Danger Level</h2>
+          <header>
+            <h1 className="alertsH1">Issues Danger Level</h1>
+          </header>
           <div className="statusLegCon">
             <div className="statusCon">
               <div className="highAlert"/><span>High</span>
@@ -330,8 +334,8 @@ export class Alerts extends Component {
         </div>
         {
           issues.length > 0
-          ? <h4 className="alertsH4">The following needs your attention:</h4>
-          : <h4 className="alertsH4">No News Is Good News:</h4>
+          ? <div className="alertsNotice">The following needs your attention:</div>
+          : <div className="alertsNotice">No News Is Good News:</div>
         }
         <ul className="alertsUL">
           {displayAlerts}

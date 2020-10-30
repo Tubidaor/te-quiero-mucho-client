@@ -102,7 +102,9 @@ export default class JournalPage extends Component {
 
     return (
       <section className="journalSection">
-        <JournalMenu handleClick={this.handleClick}/>
+        <header>
+          <JournalMenu handleClick={this.handleClick}/>
+        </header>
         { this.context.error && <Error/> }
         {
           currentSection === "journalEntry" &&

@@ -26,7 +26,9 @@ export default class IntroPage extends Component {
     return (
       <div className="introPageContainer">
         <div className="introPageTop">
-          <h2 className="introH1">Te Quiero Mucho</h2>
+          <header>
+            <h1 className="introH1">Te Quiero Mucho</h1>
+          </header>
           <img
             className="introImg"
             alt="logo for app"

@@ -33,12 +33,12 @@ export default class JournalFeed extends Component {
     const displayJournalFeed = journals.map(journal =>
       <li key={journals.indexOf(journal)} className="jFeedLi">
         <div>
-          <p>
+          <div>
             <span>
-              Date: 
+              Date:
             </span>
-            {new Date(journal.date_created).toLocaleDateString()}
-          </p>
+            {" " + new Date(journal.date_created).toLocaleDateString()}
+          </div>
           <div className="jFeedIntroCon">
             <p><span>Intro: </span>{journal.text.slice(0,25) + "..."}</p>
             <button

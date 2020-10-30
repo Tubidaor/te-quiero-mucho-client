@@ -1,10 +1,11 @@
 .loginForm {
   margin-top: 50px;
 }
-.loginH2 {
+.loginH1 {
   text-align: center;
   font-family: 'Cinzel Decorative';
   color: rgba(210, 217, 220, 1);
+  font-size: 1.5rem;
 }
 .email {
   margin-top: 70px;

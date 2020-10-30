@@ -37,7 +37,7 @@
   color: rgba(210, 217, 220, 1);
   background-color: rgba(0 , 0, 0, .75);
 }
-.alertsH4 {
+.alertsNotice {
   font-family: "Buda", cursive;
   font-size: 1em;
   color: rgba(255, 255, 0, .75);
@@ -50,6 +50,7 @@
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1rem;
 }
 .alertsSpan {
   font-family: "Buda", cursive;
@@ -76,7 +77,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.analyticCon h2 {
+.analyticCon p {
   text-align: center;
   margin-top: 10px;
 }
@@ -108,6 +109,7 @@
   width: 210px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 .anlYouBtn {
   background-color: rgba(0 , 0, 0, .75);
@@ -135,7 +137,7 @@
 .anlYouBtn:hover, .anlRelBtn:hover {
   cursor: pointer;
 }
-.anlH2 {
+.anlH1 {
   text-align: center;
   margin-top: 10px;
   background-color: rgba(0 , 0, 0, .75);
@@ -145,6 +147,7 @@
   margin-left: auto;
   margin-right: auto;
   font-family: "Buda", cursive;
+  font-size: 1.5rem;
 }
 .addIssueCon {
   margin-top: 20px;
@@ -194,10 +197,11 @@
   margin-right: auto;
   padding: 4px;
 }
-.alertsH2 {
+.alertsH1 {
   text-align: center;
   font-family: "Buda", cursive;
   color: rgba(210, 217, 220, 1);
+  font-size: 1.5rem;
 }
 .statusLegCon {
   display: flex;

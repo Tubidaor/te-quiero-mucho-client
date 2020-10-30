@@ -101,7 +101,7 @@ export default class AddReqPage extends Component {
           handleAccept={this.handleAccept}
         />
         <div className="submitNotice" id="subPrompt">
-          <h4>Your relationship request has been submitted.</h4>
+          <p>Your relationship request has been submitted.</p>
           <button
             className="submitPromptBtn"
             type="button"

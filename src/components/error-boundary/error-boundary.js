@@ -14,7 +14,7 @@ export default class Boundary extends Component {
   render() {
     if (this.state.hasError) {
       return (
-        <h2>Oops, something went wrong. We're sorry</h2>
+          <p>Oops, something went wrong. We're sorry</p>
       )
     }
     return this.props.children

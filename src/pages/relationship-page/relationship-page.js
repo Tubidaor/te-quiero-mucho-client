@@ -43,7 +43,9 @@ export default class RelationshipPage extends Component {
     return (
       <section className="relationshipSection">
         {this.context.error && <Error/>}
-        <RelMenu handleClick={this.handleClick}/>
+        <header>
+          <RelMenu handleClick={this.handleClick}/>
+        </header>
         { 
           currentSection === "questions" && 
           <Questions

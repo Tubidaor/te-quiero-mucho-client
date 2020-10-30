@@ -145,12 +145,14 @@ export default class HomePage extends Component {
         {currentSection === "Relationship" && <RelationshipPage/>}
         {currentSection === "AddReq" && <AddReqPage redirect={this.redirect}/>}
         <footer className="homeFooter" id="homeFooter">
-          <NavBar
-            expand={this.expand}
-            handleClick={this.handleClick}
-            handleLogout={this.handleLogout}
-          >
-          </NavBar>
+          <header>
+            <NavBar
+              expand={this.expand}
+              handleClick={this.handleClick}
+              handleLogout={this.handleLogout}
+            >
+            </NavBar>
+          </header>
         </footer>
       </div>
     )

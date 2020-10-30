@@ -191,6 +191,7 @@ span {
 }
 .jPageH5, .pPageH5, .vPageH5, .aPageH5 {
   align-self: center;
+  font-size: .83rem;
 }
 .aPageH5 {
   color: rgba(210, 217, 220, 1);

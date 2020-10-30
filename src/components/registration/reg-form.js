@@ -158,7 +158,9 @@ export default class RegForm extends Component {
     return (
       <form className="regForm" onSubmit={this.handleRegistration}>
         <div className="regFormTopCon">
-          <h2 className="regFormH2">Sign Up</h2>
+          <header>
+            <h1 className="regFormH1">Sign Up</h1>
+          </header>
           {this.context.error && <Error/> }
           <div className="firstNameCon">
             <label htmlFor="firstName">First name</label>

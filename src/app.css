@@ -19,7 +19,7 @@
   background: #40616e; 
 }
 @media screen and (min-width: 481px) {
-  .introH1, .loginH2, .regFormH2 {
+  .introH1, .loginH1, .regFormH1 {
     margin-top: 150px;
   }
   .introImg {

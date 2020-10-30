@@ -60,7 +60,9 @@ export default class EventsPage extends Component {
 
     return (
       <section className="eFeedSec">
-        <EventsMenu handleClick={this.handleClick} />
+        <header>
+          <EventsMenu handleClick={this.handleClick} />
+        </header>
           {this.state.section === 'Images' && <ImagesFeed images={images}/>}
           {
             this.state.section === 'Journal' &&

@@ -6,14 +6,14 @@ export default class StatusBar extends Component {
   render() {
     return (
       <section className="statusBarSection">
-        <div className="yourStateofMind">
-            <h4>State of Mind</h4>
+          <div className="yourStateofMind">
+            <p>State of Mind</p>
             <p className="stateofMindScore">{this.props.stateofMind}</p>
-        </div>
-        <div className="rState">
-          <h4>Relationship State</h4>
+          </div>
+          <div className="rState">
+            <p>Relationship State</p>
             <p className="stateofRScore">{this.props.rQuality}</p>
-        </div>
+          </div>
       </section>
     )
   }

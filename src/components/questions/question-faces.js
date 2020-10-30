@@ -175,7 +175,9 @@ export default class QuestionFaces extends Component {
     
     return (
       <div className={`facesCon id${questions[currentQ].id}`}>
-        <h3 className="facesH3">{questions[currentQ].question}</h3>
+        <div>
+          <p className="facesP">{questions[currentQ].question}</p>
+        </div>
         <form className="qForm" id={`qsForm`} >
           <div className="faceInputCon">
             <div className="joyFace">

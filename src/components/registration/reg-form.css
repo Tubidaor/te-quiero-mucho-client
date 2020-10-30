@@ -1,7 +1,8 @@
-.regFormH2 {
+.regFormH1 {
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
   color: rgba(210, 217, 220, 1);
+  font-size: 1.5rem;
 }
 .firstNameCon {
   margin-left: auto;

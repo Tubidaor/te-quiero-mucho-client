@@ -40,7 +40,9 @@ export class JournalEntry extends Component {
     return (
       <div className="jEntryCon">
         <div className="dateButtonCon">
-          <h5 className="jPageH5">Today's Date: <span> {getDate()} </span> </h5>
+            <div className="jPageH5">
+              Today's Date: <span> {getDate()} </span>
+            </div>
           <div className="aBtnCon">
           <button
             className="jInputButton"
@@ -83,7 +85,9 @@ static contextType = TeQuieroContext
     return (
       <section className="pEntrySection">
         <div className="dateButtonCon">
-          <h5 className="pPageH5">Today's Date: <span>{getDate()}</span></h5>
+            <div className="pPageH5">
+              Today's Date: <span>{getDate()}</span>
+            </div>
           <div className="aBtnCon">
             <button
               className="pInputButton"
@@ -205,7 +209,9 @@ export class AudioEntry extends Component {
     return (
       <section className="audioSection">
         <form  className="dateButtonCon">
-        <h5 className="aPageH5">Today's Date: <span>{getDate()}</span></h5>
+          <div className="aPageH5">
+            Today's Date: <span>{getDate()}</span>
+          </div>
         <div className="aBtnCon">
           <button 
             className="aButton"
@@ -369,7 +375,9 @@ export class VideoEntry extends Component {
     return (
       <section className="vSection">
         <form className="dateButtonCon">
-          <h5 className="aPageH5">Today's Date: <span>{getDate()}</span> </h5>
+            <div className="aPageH5">
+              Today's Date: <span>{getDate()}</span>
+            </div>
           <div className="aBtnCon">
             <button  className="aButton" id="btnStart" onClick={this.startRec}>
               <FontAwesomeIcon icon={faRecordVinyl}/>

@@ -31,7 +31,9 @@ export default class AddApproval extends Component {
 
     return (
       <div className="addAppCon">
-        <h4>Add Approval</h4>
+        <header>
+          <h1>Add Approval</h1>
+        </header>
         <ul className="addAppUl">
           {displayRequests}
         </ul>
