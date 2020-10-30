@@ -86,16 +86,16 @@
   color: rgba(210, 217, 220, 1);
   border: none;
   border-radius: 5px;
-  font-family: "Buda", cursive;
+  font-family: "Buda";
   padding: 2px 0px 2px 2px;
   font-weight: bold;
-  font-size: .6em;
+  font-size: .83rem;
   max-width: 90%;
 }
 .qOptions {
   font-weight: bold;
-  font-family: "Buda", cursive;
-  font-size: .6em;
+  font-family: "Buda";
+  font-size: .83rem;
   color: rgba(210, 217, 220, 1);
 }
 .anlCon, .alertsCon {
@@ -120,6 +120,7 @@
   padding: 2px;
   border: none;
   border-radius: 5px;
+  font-size: 1rem;
 }
 .anlRelBtn {
   background-color: rgba(0 , 0, 0, .75);
@@ -130,6 +131,7 @@
   padding: 2px;
   border: none;
   border-radius: 5px;
+  font-size: 1rem;
 }
 .anlYouBtn:active, .anlRelBtn:active {
   color: rgba(0 , 0, 0, .75);
